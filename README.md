@@ -47,7 +47,7 @@ Tạo ra một hệ thống thư viện trực tuyến, trong đó Server quản
 ## 🚀 3. Hình ảnh giao diện
 
 <p align="center">
-  <img src="images/Screenshot 2025-09-15 074536.png](https://github.com/user-attachments/assets/d6c44ce0-a052-4b24-971d-5d627a03f2f7" alt="Ảnh 1" width="700"/>
+  <img src="https://github.com/user-attachments/assets/d6c44ce0-a052-4b24-971d-5d627a03f2f7" alt="Ảnh 1" width="700"/>
 </p>
 
 <p align="center">

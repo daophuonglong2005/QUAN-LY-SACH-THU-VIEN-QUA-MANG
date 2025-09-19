@@ -83,7 +83,7 @@ Tạo ra một hệ thống thư viện trực tuyến, trong đó Server quản
 2. **Tải mã nguồn dự án**:  
    - Clone repo bằng Git:  
      ```bash
-     https://github.com/trantriduy0511/Quan-ly-sach-thu-vien-qua-mang/tree/main
+     https://github.com/daophuonglong2005/QUAN-LY-SACH-THU-VIEN-QUA-MANG/tree/main
      ```
    - Hoặc tải file `.zip` và giải nén.
 
@@ -97,9 +97,9 @@ Di chuyển đến Project
 - Giao diện thư viện sẽ hiện ra
 
 ## 👤 5. Liên hệ
-**Họ tên**: Trần Trí Duy.  
-**Lớp**: CNTT 16-03.  
-**Email**: trantriduy2004ss@gmail.com.
+**Họ tên**: Đào Thị Phương Long.  
+**Lớp**: CNTT 16-01.  
+**Email**: Daophuonglong2524@gmail.com.
 
 © 2025 Faculty of Information Technology, DaiNam University. All rights reserved.
 

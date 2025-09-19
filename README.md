@@ -8,10 +8,11 @@
 </h2>
 <div align="center">
     <p align="center">
-        <img src="images/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="images/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="images/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img src="https://github.com/user-attachments/assets/433b71ad-8a82-44c4-a58a-5d284c17542f" width="170"/>
+        <img src="https://github.com/user-attachments/assets/ef59df2c-bbad-4ee4-a890-80139f545c8c" width="180"/>
+        <img src="https://github.com/user-attachments/assets/494b660e-72c2-47fe-b311-127fe9be0d8c" width="200"/>
     </p>
+
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
 [![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20T…he-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
@@ -49,10 +50,13 @@ Tạo ra một hệ thống thư viện trực tuyến, trong đó Server quản
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d6c44ce0-a052-4b24-971d-5d627a03f2f7" alt="Ảnh 1" width="700"/>
 </p>
-
 <p align="center">
-  <img src="images/Screenshot 2025-09-15 074651.png" alt="Ảnh 2" width="700"/>
+  <img src="https://github.com/user-attachments/assets/3ea69c80-6304-47c2-bd38-6fe59f7cc45" alt="Ảnh 2" width="700"/>
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/315f1857-1dad-4a9d-9fec-dd48a24db378" alt="Ảnh 3" width="700"/>
+</p>
+
 
 
 

@@ -21,14 +21,25 @@
 
 </div>
 
-## 📖 1. Giới thiệu
-Ứng dụng Quản lý sách – thư viện qua mạng được xây dựng trên mô hình Client – Server sử dụng:
-- 1 project cho Server (xử lý dữ liệu, đa luồng, file I/O)
-- 1 project cho Client (giao diện Swing, gửi yêu cầu qua TCP).
-  
-📌Mục tiêu 
 
-Tạo ra một hệ thống thư viện trực tuyến, trong đó Server quản lý dữ liệu (sách, người dùng, mượn/trả), còn Client cung cấp giao diện cho người dùng đăng nhập, tìm kiếm và mượn sách từ xa.
+## 📖 1. Giới thiệu
+
+**Quản lý sách – Thư viện số** là một ứng dụng mô phỏng hệ thống thư viện trực tuyến, được phát triển theo mô hình **Client – Server**.
+Trong đó:
+
+* **Server** chịu trách nhiệm quản lý dữ liệu (người dùng, sách, mượn/trả) và xử lý các yêu cầu từ Client thông qua giao thức TCP.
+* **Client** cung cấp giao diện trực quan (Java Swing) cho người dùng để đăng nhập, tìm kiếm, mượn và trả sách từ xa.
+
+Ứng dụng sử dụng **giao thức TCP Socket** để trao đổi dữ liệu giữa Client và Server, đảm bảo quá trình truyền thông tin ổn định và tin cậy.
+Dữ liệu được lưu trữ và quản lý trong **MySQL Database** để hỗ trợ đầy đủ các chức năng CRUD (Create – Read – Update – Delete).
+
+---
+
+📌 **Mục tiêu**
+
+* Xây dựng một hệ thống thư viện số cơ bản, có thể mở rộng và dễ sử dụng.
+* Tách biệt rõ ràng giữa **tầng giao diện (Client)** và **tầng xử lý dữ liệu (Server)**.
+* Tận dụng giao thức **TCP** để mô phỏng mô hình mạng thực tế.
 
   ### ✨ Các chức năng chính
 - **Đăng nhập/Đăng ký** người dùng.

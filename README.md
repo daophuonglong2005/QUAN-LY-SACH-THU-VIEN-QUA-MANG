@@ -51,12 +51,11 @@ Tạo ra một hệ thống thư viện trực tuyến, trong đó Server quản
   <img src="https://github.com/user-attachments/assets/d6c44ce0-a052-4b24-971d-5d627a03f2f7" alt="Ảnh 1" width="700"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3ea69c80-6304-47c2-bd38-6fe59f7cc45" alt="Ảnh 2" width="700"/>
+  <img src="https://github.com/user-attachments/assets/7e349714-bc47-4685-856f-43386424d725" alt="Ảnh 2" width="700"/>
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/315f1857-1dad-4a9d-9fec-dd48a24db378" alt="Ảnh 3" width="700"/>
 </p>
-
 
 
 

@@ -42,10 +42,15 @@ Dữ liệu được lưu trữ và quản lý trong **MySQL Database** để h�
 * Tận dụng giao thức **TCP** để mô phỏng mô hình mạng thực tế.
 
   ### ✨ Các chức năng chính
-- **Đăng nhập/Đăng ký** người dùng.
+- **Đăng nhập/Đăng ký** người dùng và admin.
 - **Mượn và trả sách**: ghi nhận trên server.
 - **Lưu trữ dữ liệu**: MySQL.
 - **Trao đổi dữ liệu** qua TCP.
+- **Quản lý sách** admin
+- **Quản lý mượn trả** Người dùng gửi yêu cầu mượn sách.
+- **Kết nối mạng Client – Server (TCP)** Client kết nối bằng Socket tới server
+- **Quản lý người dùng & phân quyền** Người dùng thường: mượn, trả, xem sách. Quản trị viên: thêm/sửa/xóa sách, xem danh sách mượn.
+
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 - **Ngôn ngữ lập trình**: Java  
@@ -57,30 +62,76 @@ Dữ liệu được lưu trữ và quản lý trong **MySQL Database** để h�
 - **Hệ điều hành**: Windows
   
 ## 🚀 3. Hình ảnh giao diện
-
-<p align="center">
-  <img src="github.com/user-attachments/assets/293ffd11-550d-4567-a35c-34d2081265f5" alt="Hình 1: Trang đăng nhập, đăng kí" width="700"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c4c88331-39ae-4fdc-b6af-e0501f535fef" alt="Hình 2: Giao diện người dùng: Danh sách sách" width="700"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4bc164ee-30bb-4fe0-9311-49a8abd981ab" alt="Hình 3: Giao diện người dùng: Sách của tôi" width="700"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/16ec3017-398d-4306-a225-9be5141be9c3" alt="Hình 4: Giao diện người dùng: Yêu cầu mượn" width="700"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0ade0b29-7db3-4c23-9769-4900923e9b69" alt="Hình 5: Giao diện admin: Danh sách sách" width="700"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e4234e1d-4971-4d93-8a5e-28d11b0dcb89" alt="Hình 6: Giao diện admin: Sách của tôi" width="700"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1d6e07d1-9938-4556-a027-1a5c9cc587e0" alt="Hình 6: Giao diện admin: Yêu cầu mượnmượn" width="700"/>
-</p>
-
-
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/61715019-7c2e-416a-8fb9-893f1b6f03ee" /><br/>
+      <b>Hình 1: Trang đăng nhập, đăng kí</b>
+    </td>
+  </tr>
+</table>
+</div>
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/c4c88331-39ae-4fdc-b6af-e0501f535fef" /><br/>
+      <b>Hình 2: Giao diện người dùng: Danh sách sách</b>
+    </td>
+  </tr>
+</table>
+</div>
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/4bc164ee-30bb-4fe0-9311-49a8abd981ab" /><br/>
+      <b>Hình 3: Giao diện người dùng: Sách của tôi</b>
+    </td>
+  </tr>
+</table>
+</div>
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/16ec3017-398d-4306-a225-9be5141be9c3" /><br/>
+      <b>Hình 4: Giao diện người dùng: Yêu cầu mượn</b>
+    </td>
+  </tr>
+</table>
+</div>
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/0ade0b29-7db3-4c23-9769-4900923e9b69" /><br/>
+      <b>Hình 5: Giao diện admin: Danh sách sách</b>
+    </td>
+  </tr>
+</table>
+</div>
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/e4234e1d-4971-4d93-8a5e-28d11b0dcb89" /><br/>
+      <b>Hình 6: Giao diện admin: Sách của tôi</b>
+    </td>
+  </tr>
+</table>
+</div>
+<div align="center">
+<table>
+  <tr>
+      <td align="center">
+      <img width="100%" alt="Screenshot 2025-09-19 061113" src="https://github.com/user-attachments/assets/1d6e07d1-9938-4556-a027-1a5c9cc587e0" /><br/>
+      <b>Hình 7: Giao diện admin: Yêu cầu mượn</b>
+    </td>
+  </tr>
+</table>
+</div>
 
 
 

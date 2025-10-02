@@ -59,14 +59,31 @@ Dữ liệu được lưu trữ và quản lý trong **MySQL Database** để h�
 ## 🚀 3. Hình ảnh giao diện
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d6c44ce0-a052-4b24-971d-5d627a03f2f7" alt="Ảnh 1" width="700"/>
+  <img src="github.com/user-attachments/assets/293ffd11-550d-4567-a35c-34d2081265f5" alt="Hình 1: Trang đăng nhập, đăng kí" width="700"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7e349714-bc47-4685-856f-43386424d725" alt="Ảnh 2" width="700"/>
+  <img src="https://github.com/user-attachments/assets/c4c88331-39ae-4fdc-b6af-e0501f535fef" alt="Hình 2: Giao diện người dùng: Danh sách sách" width="700"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/315f1857-1dad-4a9d-9fec-dd48a24db378" alt="Ảnh 3" width="700"/>
+  <img src="https://github.com/user-attachments/assets/4bc164ee-30bb-4fe0-9311-49a8abd981ab" alt="Hình 3: Giao diện người dùng: Sách của tôi" width="700"/>
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/16ec3017-398d-4306-a225-9be5141be9c3" alt="Hình 4: Giao diện người dùng: Yêu cầu mượn" width="700"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ade0b29-7db3-4c23-9769-4900923e9b69" alt="Hình 5: Giao diện admin: Danh sách sách" width="700"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e4234e1d-4971-4d93-8a5e-28d11b0dcb89" alt="Hình 6: Giao diện admin: Sách của tôi" width="700"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1d6e07d1-9938-4556-a027-1a5c9cc587e0" alt="Hình 6: Giao diện admin: Yêu cầu mượnmượn" width="700"/>
+</p>
+
+
+
+
+
 
 
 
